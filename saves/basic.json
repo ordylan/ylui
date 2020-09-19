@@ -5,12 +5,12 @@
         "wallpaper": "./res/img/wallpapers/bg1.jpg",
         "wallpaperBlur": false,
         "wallpaperSlide": false,
-        "wallpaperSlideRandom": true,
+        "wallpaperSlideRandom": false,
         "wallpaperSlideItv": 1,
-        "wallpaperSlideTime": 1519442460788,
-        "wallpaperSlideIndex": 8,
+        "wallpaperSlideTime": 1600522089151,
+        "wallpaperSlideIndex": 4,
         "openMax": 9,
-        "idCounter": 215,
+        "idCounter": 218,
         "themeColor": "#FF8C00",
         "autoThemeColor": false,
         "wallpapers": [
@@ -92,7 +92,7 @@
                 "content": "gear"
             },
             "openMode": "normal",
-            "plugin": false,
+            "plugin": true,
             "position": {
                 "x": "x*0.05",
                 "y": "y*0.05",
@@ -101,7 +101,7 @@
                 "autoOffset": true
             },
             "version": "1.0.0",
-            "poweredBy": "YLUI",
+            "poweredBy": "",
             "resizable": true,
             "single": true,
             "size": {
@@ -134,7 +134,7 @@
                 "autoOffset": false
             },
             "version": "1.0.0",
-            "poweredBy": "Yuri2",
+            "poweredBy": "",
             "resizable": false,
             "single": true,
             "size": {
@@ -158,7 +158,7 @@
                 "bg": "#3a55c2"
             },
             "openMode": "normal",
-            "plugin": false,
+            "plugin": true,
             "position": {
                 "autoOffset": true,
                 "left": true,
@@ -167,7 +167,7 @@
                 "y": "y*0.1"
             },
             "version": "1.0.0",
-            "poweredBy": "Yuri2",
+            "poweredBy": "",
             "resizable": true,
             "single": false,
             "size": {
@@ -176,40 +176,6 @@
             },
             "title": "浏览器",
             "url": "./res/apps/browser/index.html",
-            "customTile": "",
-            "urlRandomToken": true
-        },
-
-        "ylui-fa": {
-            "addressBar": false,
-            "autoRun": 0,
-            "background": false,
-            "badge": 0,
-            "desc": "",
-            "icon": {
-                "type": "fa",
-                "content": "flag",
-                "bg": "rgb(53,154,238)"
-            },
-            "openMode": "normal",
-            "plugin": false,
-            "position": {
-                "autoOffset": true,
-                "left": true,
-                "top": true,
-                "x": "x*0.05",
-                "y": "y*0.05"
-            },
-            "version": "1.0.0",
-            "poweredBy": "Font Awesome",
-            "resizable": true,
-            "single": true,
-            "size": {
-                "height": "y*0.8-80",
-                "width": "x*0.8"
-            },
-            "title": "Font Awesome",
-            "url": "https://fontawesome.com:/cheatsheet",
             "customTile": "",
             "urlRandomToken": true
         },
@@ -324,7 +290,7 @@
                 "bg": "rgb(12,58,138)"
             },
             "openMode": "normal",
-            "plugin": false,
+            "plugin": true,
             "position": {
                 "autoOffset": true,
                 "left": true,
@@ -357,7 +323,7 @@
                 "bg": "rgb(92,57,110)"
             },
             "openMode": "normal",
-            "plugin": false,
+            "plugin": true,
             "position": {
                 "autoOffset": true,
                 "left": true,
@@ -390,7 +356,7 @@
                 "bg": "rgb(3,14,151)"
             },
             "openMode": "normal",
-            "plugin": false,
+            "plugin": true,
             "position": {
                 "autoOffset": true,
                 "left": true,
@@ -423,7 +389,7 @@
                 "bg": "rgb(188,138,39)"
             },
             "openMode": "normal",
-            "plugin": false,
+            "plugin": true,
             "position": {
                 "autoOffset": true,
                 "left": true,
@@ -674,6 +640,39 @@
             "url": "https://ordylan.github.io/ordylan/about/index.html",
             "customTile": "",
             "urlRandomToken": true
+        },
+        "app-217": {
+            "addressBar": false,
+            "autoRun": 1,
+            "background": true,
+            "badge": 0,
+            "desc": "我的公众号",
+            "icon": {
+                "type": "fa",
+                "content": "我的公众号",
+                "bg": "#f5a818"
+            },
+            "openMode": "normal",
+            "plugin": true,
+            "position": {
+                "autoOffset": false,
+                "left": false,
+                "top": true,
+                "x": "0",
+                "y": "0"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": false,
+            "single": false,
+            "size": {
+                "height": "100",
+                "width": "100"
+            },
+            "title": "我的公众号",
+            "url": "https://ordylan.gitee.io/",
+            "customTile": "",
+            "urlRandomToken": true
         }
     },
     "shortcuts": [
@@ -790,6 +789,18 @@
                     "hash": ""
                 }
             ]
+        },
+        {
+            "app": "yl-browser",
+            "title": "浏览器",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-217",
+            "title": "我的公众号",
+            "params": {},
+            "hash": ""
         }
     ],
     "tiles": [
