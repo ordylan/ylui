@@ -411,14 +411,7 @@ YL.render = function (data) {
           autoRun()
         }
 
-        //社区版提示检测
-        if (first && !YL.static.serialNumber) {
-          YL.onReady(function () {
-            setTimeout(function () {
-              YL.msg("橙子电脑" + YL.info.version + "网页版", '欢迎使用');
-            }, 1500)
-          });
-        }
+
 
         this.ready = true;
       },

@@ -92,7 +92,7 @@
                 "content": "gear"
             },
             "openMode": "normal",
-            "plugin": true,
+            "plugin": false,
             "position": {
                 "x": "x*0.05",
                 "y": "y*0.05",
@@ -158,7 +158,7 @@
                 "bg": "#3a55c2"
             },
             "openMode": "normal",
-            "plugin": true,
+            "plugin": false,
             "position": {
                 "autoOffset": true,
                 "left": true,
@@ -793,12 +793,6 @@
         {
             "app": "yl-browser",
             "title": "浏览器",
-            "params": {},
-            "hash": ""
-        },
-        {
-            "app": "app-217",
-            "title": "我的公众号",
             "params": {},
             "hash": ""
         }
