@@ -68,15 +68,6 @@ YLApp.onReady(function () {
                     text: YL.lang('Others'),
                     disable:!YL.static.changeable
                 },
-                "data-manage": {
-                    icon: "database",
-                    text: YL.lang('DataManager'),
-                    disable:!(YL.static.changeable&&YL.static.dataCenter)
-                },
-                "YLUI": {
-                    icon: "yoast",
-                    text: 'YLUI',
-                },
                 "aboutUs": {
                     icon: "info-circle",
                     text: YL.lang('AboutUs'),
